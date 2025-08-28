@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+}
+input, button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #0078d7;
+}

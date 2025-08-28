@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي البسيط</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>مرحباً، أنا خالد!</h1>
+    <p>مهندس بترول ومبدع رقمي.</p>
+  </header>
+
+  <section>
+    <h2>مشاريعي</h2>
+    <ul>
+      <li>نماذج MATLAB للهيدروليك</li>
+      <li>محتوى تعليمي لمجموعة ثقافة نفطية</li>
+      <li>تحليل DST وملفات الآبار</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 خالد هيثم أحمد</p>
+  </footer>
+</body>
+</html>
+<section>
+  <h2>احسب الضغط الهيدروستاتيكي</h2>
+  <label for="density">كثافة الطين (كغم/م³):</label>
+  <input type="number" id="density" placeholder="مثال: 1200">
+
+  <label for="depth">عمق البئر (متر):</label>
+  <input type="number" id="depth" placeholder="مثال: 2500">
+
+  <button onclick="calculatePressure()">احسب</button>
+
+  <p id="result"></p>
+</section>
+
+<script src="script.js"></script>
